@@ -1,8 +1,6 @@
 package com.miner.videominer;
 
-/**
- * Created by kalma on 29/12/2017.
- */
+
 
 public class VideoEntity {
     int thumbnail;

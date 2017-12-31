@@ -7,10 +7,6 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-/**
- * Created by kalma on 29/12/2017.
- */
-
 public class VideoListViewHolder extends RecyclerView.ViewHolder {
 
     private RelativeLayout thumbnail;
