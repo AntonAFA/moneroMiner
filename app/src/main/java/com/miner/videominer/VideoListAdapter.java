@@ -7,7 +7,9 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-
+/**
+ * Created by kalma on 29/12/2017.
+ */
 
 public class VideoListAdapter extends RecyclerView.Adapter<VideoListViewHolder> {
 
